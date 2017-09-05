@@ -16,3 +16,5 @@ Before adding 'audited' gem,
 > User.new(name: 'Foo', company: Company.first).valid?
  => true
 ```
+
+`belongs_to :company, required: true` works as expected.
